@@ -1,17 +1,17 @@
 #rule export run C-gene:
     output:
-        auspice_tree = "auspice/C-gene_tree.json",
-        auspice_meta = "auspice/C-gene_meta.json"
+        auspice_tree = "auspice/HBV-DIV_C-gene_tree.json",
+        auspice_meta = "auspice/HBV-DIV_C-gene_meta.json"
 		
 #rule export run S-gene:
     output:
-        auspice_tree = "auspice/S-gene_tree.json",
-        auspice_meta = "auspice/S-gene_meta.json"		
+        auspice_tree = "auspice/HBV-DIV_S-gene_tree.json",
+        auspice_meta = "auspice/HBV-DIV_S-gene_meta.json"		
 
 #rule export run complete genome:
     output:
-        auspice_tree = "auspice/complete-genome_tree.json",
-        auspice_meta = "auspice/complete-genome-gene_meta.json"
+        auspice_tree = "auspice/HBV-DIV_complete-genome_tree.json",
+        auspice_meta = "auspice/HBV-DIV_complete-genome-gene_meta.json"
 
 # Data files are not included as part of Github repository		
 # Snakefile rules		
